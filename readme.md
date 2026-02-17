@@ -8,29 +8,29 @@
 
 ## Структура проекта
 ```
-├── package.json          # Настройки проекта и зависимости
-├── .env                 # Переменные окружения (PERCo API)
-├── students.db.json     # Локальный кэш данных о студентах
-├── static/              # Статические файлы
+├── package.json               # Настройки проекта и зависимости
+├── .env                       # Переменные окружения (PERCo API)
+├── students.db.json           # Локальный кэш данных о студентах
+├── static/                    # Статические файлы
 │   ├── js/
 │   │   └── studentsRender.js  # Клиентский JS для монитора
 │   ├── styles/
 │   │   └── style.css          # Стили интерфейса
 │   └── fonts/                 # Шрифты (Inter)
-├── src/                 # Серверный код
-│   ├── index.js             # == Точка входа приложения ==
-│   ├── config.js            # Конфигурация (PERCo, зоны, подразделения)
+├── src/                       # Серверный код
+│   ├── index.js               # == Точка входа приложения ==
+│   ├── config.js              # Конфигурация (PERCo, зоны, подразделения)
 │   ├── controllers/
-│   │   └── apiController.js # Обработка запросов API
+│   │   └── apiController.js   # Обработка запросов API
 │   ├── routes/
-│   │   ├── apiRoutes.js     # API маршруты (/api/students)
-│   │   └── pagesRoutes.js   # Страницы (/moroz, /gorko)
+│   │   ├── apiRoutes.js       # API маршруты (/api/students)
+│   │   └── pagesRoutes.js     # Страницы (/moroz, /gorko)
 │   ├── services/
-│   │   ├── percoService.js  # Работа с PERCo API
-│   │   └── dbService.js     # Работа с локальным файлом данных
+│   │   ├── percoService.js    # Работа с PERCo API
+│   │   └── dbService.js       # Работа с локальным файлом данных
 │   └── utils/
-│       └── helpers.js       # Вспомогательные функции
-└── views/               # HTML шаблоны
-    ├── index.html       # Страница выбора общежития
-    └── monitor.html     # Страница монитора студентов, основной интерфейс
+│       └── helpers.js         # Вспомогательные функции
+└── views/                     # HTML шаблоны
+    ├── index.html             # Страница выбора общежития
+    └── monitor.html           # Страница монитора студентов, основной интерфейс
 ```
