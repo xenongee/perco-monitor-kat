@@ -4,7 +4,7 @@
   "description": "",
   "author": "",
   "keywords": [],
-  "license": "ISC",
+  "license": "MIT",
   "main": "src/index.js",
   "scripts": {
     "start": "node --env-file .env src/index.js",
